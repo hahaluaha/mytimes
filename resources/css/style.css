@@ -25,6 +25,7 @@ nav span {
 
       display: inline-block;
       padding: 20px 10px;
+
 }
 
 .stories {
@@ -103,6 +104,5 @@ header {
 
 header nav {
 
-      padding-right: 50px;
-      
+       padding-right: 50px;
 }
