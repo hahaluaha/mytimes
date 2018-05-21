@@ -112,7 +112,7 @@ header nav {
 
  /* Content main */
 
- .content {
+.content {
 
        display: flex;
        width: 1200px;
@@ -131,4 +131,22 @@ header nav {
 .column.large {
       width: 550px;
 
+}
+
+.main-tale .image-content {
+
+      background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+      width: 600px;
+      margin-top: 10px;
+      text-align: left;
+      font-size: 40px;
+}
+
+.main-tale .image-content span {
+      margin-left: 15px;
+}
+
+.earth-spins .image-content {
+
+      background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
 }
