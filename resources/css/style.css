@@ -78,6 +78,8 @@ header {
       font-family: Verdana, sans-serif;
       font-size: 14px;
       font-weight: bold;
+      position: fixed;
+      z-index: 1;
 
 }
 
@@ -87,14 +89,15 @@ header {
       display: flex;
       align-items: center;
       padding-left: 30px;
+      flex-grow: 1;
 
 }
 
 .logo img {
 
-      width: 90px;
-      height: 70px;
-      margin-right: 15px;
+      width: 70px;
+      height: 60px;
+      margin-right: 10px;
 }
 
 .logo span {
@@ -104,5 +107,28 @@ header {
 
 header nav {
 
-       padding-right: 50px;
+       padding-right: 30px;
+}
+
+ /* Content main */
+
+ .content {
+
+       display: flex;
+       width: 1200px;
+       margin: 0 auto 60px auto;
+       padding-top: 120px;
+ }
+
+.column {
+
+       display: flex;
+       flex-direction: column;
+       margin-right: 30px;
+ }
+
+ /* News Column */
+.column.large {
+      width: 550px;
+
 }
